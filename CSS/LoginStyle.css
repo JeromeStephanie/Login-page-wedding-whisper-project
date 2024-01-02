@@ -111,3 +111,17 @@ button {
     cursor: pointer;
 }
 
+@media (max-width: 768px) {
+    body {
+        width: 100%;
+    }
+
+    .contents {
+       border: none;
+       width: 100%;
+    }
+
+    .main-con {
+        padding: 0;
+    }
+}
